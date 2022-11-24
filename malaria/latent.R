@@ -34,9 +34,9 @@ p = user(0.9)                 # probability a mosquito survives one day
 sigma <- user(0.02)           # human recovery rate
 gamma <- 0.0833               # progression (1 / duration of latent period 12 days)
 
-m = user(10)                  # density of female mosquitoes per person. [0.5-40]
-a = user(0.3)                 # biting rate per female mosquito [0.01-0.5]
-b_h = 0.2                     # probability of infection in susceptible human given bite from infectious mosquito [0.2-0.5]
-b_v = 0.05                    # probability of infection in susceptible mosquito given bite on an infectious human [0.5]
+m = user(10)                  # density of female mosquitoes per person
+a = user(0.3)                 # biting rate per female mosquito
+b_h = 0.2                     # probability of infection in susceptible human given bite from infectious mosquito 
+b_v = 0.05                    # probability of infection in susceptible mosquito given bite on an infectious human
 
 
